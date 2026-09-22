@@ -1,5 +1,5 @@
 {
-  "identity": {"legal_name": "", "email": "", "phone": "", "city_state": "", "linkedin_url": "", "resume_path": ""},
+  "identity": {"legal_name": "", "email": "", "phone": "", "city_state": "", "linkedin_url": "", "portfolio_url": "", "resume_path": ""},
   "work_authorization": {"authorized_us": null, "requires_sponsorship": null},
   "education": {"highest_level": ""},
   "preferences": {"earliest_start_date": "", "salary_expectation": "", "can_travel_for_onboarding": null, "text_message_consent": false},
