@@ -1,9 +1,9 @@
 {
-  "identity": {"legal_name": "", "email": "", "phone": "", "city_state": "", "linkedin_url": "", "portfolio_url": "", "resume_path": ""},
+  "identity": {"first_name": "", "last_name": "", "legal_name": "", "email": "", "phone": "", "city_state": "", "linkedin_url": "", "portfolio_url": "", "resume_path": ""},
   "work_authorization": {"authorized_us": null, "requires_sponsorship": null},
   "education": {"highest_level": ""},
   "preferences": {"earliest_start_date": "", "salary_expectation": "", "can_travel_for_onboarding": null, "text_message_consent": false},
   "history": {"previously_employed_by_amplify": false, "previously_contracted_with_amplify": false, "currently_working_with_amplify": false, "worked_for_education_agency_last_24_months": null, "participated_in_curriculum_purchasing": null, "restrictive_agreements": null},
-  "voluntary_demographics": {"gender": "", "race": "", "veteran_status": "", "disability_status": ""},
+  "voluntary_demographics": {"gender": "", "race": "", "hispanic_latino": null, "veteran_status": "", "disability_status": ""},
   "defaults": {"how_heard": "Other Social Media"}
 }
