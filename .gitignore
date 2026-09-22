@@ -1,0 +1,7 @@
+profile.json
+*.local.json
+*.private.json
+resumes/
+cover-letters/
+secrets/
+__pycache__/

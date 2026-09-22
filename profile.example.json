@@ -1,0 +1,9 @@
+{
+  "identity": {"legal_name": "", "email": "", "phone": "", "city_state": "", "linkedin_url": "", "resume_path": ""},
+  "work_authorization": {"authorized_us": null, "requires_sponsorship": null},
+  "education": {"highest_level": ""},
+  "preferences": {"earliest_start_date": "", "salary_expectation": "", "can_travel_for_onboarding": null, "text_message_consent": false},
+  "history": {"previously_employed_by_amplify": false, "previously_contracted_with_amplify": false, "currently_working_with_amplify": false, "worked_for_education_agency_last_24_months": null, "participated_in_curriculum_purchasing": null, "restrictive_agreements": null},
+  "voluntary_demographics": {"gender": "decline", "race": "decline", "veteran_status": "decline"},
+  "defaults": {"how_heard": "Other Social Media"}
+}
