@@ -1,0 +1,31 @@
+{
+  "platform": "pinpointhq",
+  "description": "Reusable field mapping for Pinpoint job applications",
+  "fields": {
+    "First Name": "identity.first_name",
+    "Last Name": "identity.last_name",
+    "Email Address": "identity.email",
+    "Phone Number": "identity.phone",
+    "Street Address": "identity.address.street",
+    "City": "identity.address.city",
+    "State": "identity.address.state",
+    "Zipcode": "identity.address.postal_code",
+    "Resume": "documents.resume_path",
+    "What is your desired type of employment?": "preferences.employment_type",
+    "What is your preferred shift?": "preferences.preferred_shift",
+    "Available Date": "preferences.earliest_start_date",
+    "Have you previously been employed by Group O?": "application_answers.previous_employment",
+    "Do you have any family or friends employed by Group O?": "application_answers.family_or_friends_at_company",
+    "Are you willing to relocate?": "preferences.willing_to_relocate",
+    "Desired Salary Range": "preferences.desired_salary_range",
+    "Are you 18 years of age or older?": "application_answers.age_18_or_older",
+    "Are you willing to undergo a background check and drug screen?": "application_answers.background_check_and_drug_screen",
+    "Are you authorized to work in the United States?": "work_authorization.authorized",
+    "Will you now or in the future require sponsorship?": "work_authorization.requires_sponsorship",
+    "Gender": "demographics.gender",
+    "Ethnicity": "demographics.ethnicity",
+    "Disability": "demographics.disability_status",
+    "Veteran Status": "demographics.veteran_status",
+    "Allow us to process your personal information": "privacy.consent"
+  }
+}
