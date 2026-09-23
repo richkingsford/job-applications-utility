@@ -1,0 +1,33 @@
+{
+  "ats": "dayforce",
+  "label_strategy": "exact-or-semantic-label",
+  "required_field_policy": "validate_before_next",
+  "reusable_fields": {
+    "Email Address": "identity.email",
+    "Confirm Email Address": "identity.email",
+    "First Name": "identity.first_name",
+    "Middle Name": "identity.middle_name",
+    "Last Name": "identity.last_name",
+    "LinkedIn Profile": "identity.linkedin_url",
+    "Mobile Phone Number": "identity.phone",
+    "Preferred Contact Method": "preferences.preferred_contact_method",
+    "Country": "address.country",
+    "State/Province": "address.state",
+    "Address Line 1": "address.street",
+    "City": "address.city",
+    "Zip / Postal Code": "address.postal_code",
+    "How did you hear about this job?": "defaults.how_heard",
+    "Degree": "education.degrees[].degree",
+    "Major": "education.degrees[].focus",
+    "School": "education.degrees[].school",
+    "Position Title": "employment[].title",
+    "Employer Name": "employment[].employer",
+    "References": "references[]"
+  },
+  "validation_notes": [
+    "Set the country dialing prefix before entering phone numbers.",
+    "Confirm Email Address must exactly match Email Address.",
+    "Validate country before state/province; state is disabled until country is selected.",
+    "Run Next and resolve every page-reported field error before proceeding."
+  ]
+}
