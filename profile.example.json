@@ -3,7 +3,7 @@
   "address": {"street": "", "city": "", "state": "", "postal_code": "", "country": "United States"},
   "church": {"membership_record_number": "", "member_and_temple_worthy": null, "family_customer_supplier_partner_conflict": null, "family_church_employment": null, "honor_code_agreement": null},
   "work_authorization": {"authorized_us": null, "requires_sponsorship": null},
-  "education": {"highest_level": ""},
+  "education": {"highest_level": "", "degrees": []},
   "preferences": {"earliest_start_date": "", "salary_expectation": "$120,000-$130,000", "desired_salary_range": "$120,000-$130,000", "can_travel_for_onboarding": null, "text_message_consent": false},
   "history": {"previously_employed_by_amplify": false, "previously_contracted_with_amplify": false, "currently_working_with_amplify": false, "worked_for_education_agency_last_24_months": null, "participated_in_curriculum_purchasing": null, "restrictive_agreements": null},
   "voluntary_demographics": {"gender": "", "race": "", "hispanic_latino": null, "veteran_status": "", "disability_status": ""},
