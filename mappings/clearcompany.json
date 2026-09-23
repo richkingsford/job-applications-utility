@@ -1,0 +1,33 @@
+{
+  "ats": "clearcompany",
+  "label_strategy": "exact-or-semantic-label",
+  "required_field_policy": "validate_before_submit",
+  "reusable_fields": {
+    "First Name": "identity.first_name",
+    "Last Name": "identity.last_name",
+    "Street Address": "address.street",
+    "City": "address.city",
+    "State or Province": "address.state",
+    "Zip/Postal Code": "address.postal_code",
+    "Country": "address.country",
+    "Email Address": "identity.email",
+    "Primary Phone Number": "identity.phone",
+    "Type": "preferences.preferred_contact_method",
+    "Company Name": "employment[].employer",
+    "Position Title": "employment[].title",
+    "School or Institution": "education.degrees[].school",
+    "Degree": "education.degrees[].degree",
+    "Major/Discipline": "education.degrees[].focus",
+    "Please provide your salary requirements.": "preferences.salary_expectation",
+    "Race and Ethnicity": "voluntary_demographics.race",
+    "Veteran Status Pre-Offer": "voluntary_demographics.veteran_status",
+    "Disability Status Pre-Offer": "voluntary_demographics.disability_status",
+    "Gender": "voluntary_demographics.gender"
+  },
+  "validation_notes": [
+    "Select the phone type as Mobile.",
+    "Select state after entering address and preserve country as United States.",
+    "A Yes answer to federal-contract experience may reveal a required explanation field.",
+    "Verify the signature name, date, and agreement checkbox before final submission."
+  ]
+}
